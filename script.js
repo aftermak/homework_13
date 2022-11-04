@@ -29,7 +29,7 @@ function getTotal () {
 }
 
 function getInfo () {
-    return this.name + ' ' + this.faculty + ' ' + this.getTotal()
+    return `${this.name} ${this.faculty} ${this.getTotal()}`;
 };
 
 function Student (name, faculty, marks) {
